@@ -2,6 +2,7 @@ param (
     [string]$packageName
 )
 
+# Check for internet connection
 function Test-InternetConnection {
     try {
         $request = [System.Net.WebRequest]::Create("http://www.google.com")
