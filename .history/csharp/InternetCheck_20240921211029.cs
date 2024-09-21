@@ -8,6 +8,7 @@ class Program
         if (CheckInternetConnection())
         {
             Console.WriteLine("Internet is available.");
+            // Proceed with Scoop installation
         }
         else
         {
